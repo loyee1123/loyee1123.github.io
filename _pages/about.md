@@ -19,5 +19,3 @@ redirect_from:
 {% include_relative includes/honers.md %}
 
 {% include_relative includes/others.md %}
-
-<p style="text-align:right;font-size:small;" >Template stolen from: <a href="https://jerry391.github.io/">Xiaojian Chen</a>! </p> 
