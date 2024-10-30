@@ -40,12 +40,8 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 html {
-    transform: scale(0.5);
-    transform-origin: top left;
-    overflow-x: hidden;  // 防止横向滚动条出现
-    width: 57.14%; // 由于放大，需要调整宽度以适应视口
-  }
-
+    zoom: 5; /* 这会设置整个页面的缩放为175% */
+}
 
 .paper-box {
     display: flex;
