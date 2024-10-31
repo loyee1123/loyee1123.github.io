@@ -39,10 +39,11 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-.main-content {
+body {
     transform: scale(1.75);
     transform-origin: top left;
-    width: auto; /* 不要设置固定宽度，避免内容被裁切 */
+    overflow-x: hidden;
+    width: 57.14%;
 }
 
 /* 导航栏固定不变 */
