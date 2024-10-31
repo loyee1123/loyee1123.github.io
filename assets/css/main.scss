@@ -42,7 +42,14 @@
 body {
     transform: scale(1.5);
     transform-origin: top left;
-    width: 66.67%; /* 根据需要调整，防止横向滚动 */
+    overflow-x: hidden; /* 防止横向滚动条 */
+}
+
+/* 确保左边栏参与缩放 */
+.sidebar {
+    position: relative; /* 保持相对定位，确保参与页面布局 */
+    transform: scale(1.5);
+    transform-origin: top left;
 }
 
 /* 导航栏保持固定 */
