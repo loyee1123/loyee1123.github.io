@@ -39,22 +39,26 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-html {
-    transform: scale(1.75);
-    transform-origin: top left;
+body {
     overflow-x: hidden;
-    width: 57.14%; // 调整宽度以适配缩放后的视图
 }
 
-/* 导航栏固定不变 */
+.main-content {
+    transform: scale(1.75);
+    transform-origin: top left;
+    width: 57.14%; /* 确保内容适配缩放 */
+}
+
+/* 导航栏保持固定 */
 nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* 确保导航栏在页面顶部全宽 */
-    z-index: 1000; /* 在其他内容上方 */
-    transform: none; /* 确保不受缩放影响 */
+    width: 100%;
+    z-index: 1000;
+    transform: none;
 }
+
 
 .paper-box {
     display: flex;
