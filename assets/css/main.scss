@@ -40,8 +40,12 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 html {
-    zoom: 5; /* 这会设置整个页面的缩放为175% */
+    transform: scale(1.75);
+    transform-origin: top left;
+    overflow-x: hidden;
+    width: 57.14%; // 调整宽度以适配缩放后的视图
 }
+
 
 .paper-box {
     display: flex;
