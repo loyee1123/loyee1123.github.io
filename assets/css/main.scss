@@ -43,11 +43,12 @@ body {
     overflow-x: hidden;
 }
 
-.main-content {
+#main {
     transform: scale(1.75);
     transform-origin: top left;
-    width: 57.14%; /* 确保内容适配缩放 */
+    width: 57.14%; /* 根据需要调整 */
 }
+
 
 /* 导航栏保持固定 */
 nav {
