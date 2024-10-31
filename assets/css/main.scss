@@ -40,15 +40,10 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 body {
-    overflow-x: hidden;
-}
-
-#main {
     transform: scale(1.5);
     transform-origin: top left;
-    width: 57.14%; /* 根据需要调整 */
+    width: 66.67%; /* 根据需要调整，防止横向滚动 */
 }
-
 
 /* 导航栏保持固定 */
 nav {
