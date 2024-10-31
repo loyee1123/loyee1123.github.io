@@ -39,9 +39,10 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-body {
-    zoom: 1.5; /* 缩放比例 */
-}
+document.body.style.transform = "scale(1.5)";
+document.body.style.transformOrigin = "top left";
+document.body.style.width = "calc(100% / 1.5)";
+
 
 
 .paper-box {
