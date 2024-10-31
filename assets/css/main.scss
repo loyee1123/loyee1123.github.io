@@ -45,6 +45,12 @@ html {
     overflow-x: hidden;
     width: 57.14%; // 调整宽度以适配缩放后的视图
 }
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%; /* 或者根据需要调整 */
+    z-index: 1000; /* 确保在其他内容上层 */
+}
 
 
 .paper-box {
