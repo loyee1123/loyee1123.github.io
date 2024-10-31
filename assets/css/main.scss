@@ -40,26 +40,7 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 body {
-    transform: scale(1.5);
-    transform-origin: top left;
-    overflow-x: hidden; /* 防止横向滚动条 */
-}
-
-/* 确保左边栏参与缩放 */
-.sidebar {
-    position: relative; /* 保持相对定位，确保参与页面布局 */
-    transform: scale(1.5);
-    transform-origin: top left;
-}
-
-/* 导航栏保持固定 */
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    transform: none;
+    zoom: 1.5; /* 缩放比例 */
 }
 
 
